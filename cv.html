@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daiana Goțiu - CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cv-style.css">
+</head>
+<body>
+    <!-- Back to Portfolio Button -->
+    <a href="index.html" class="back-button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Portfolio
+    </a>
+
+    <!-- Print Button -->
+    <button onclick="window.print()" class="print-button hide-print">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 6 2 18 2 18 9"/>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+            <rect x="6" y="14" width="12" height="8"/>
+        </svg>
+        Download PDF
+    </button>
+
+    <div class="cv-container">
+        <!-- Header -->
+        <header class="cv-header">
+            <div class="header-banner">
+                <img src="images/cv.png" alt="Daiana Goțiu">
+                <a href="https://your-portfolio-url.com" target="_blank" class="portfolio-cta">
+                    View Portfolio
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <!-- Contact & Portfolio Link -->
+            <div class="cv-contact">
+                <a href="mailto:daianagotiu@gmail.com" class="contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="4" width="20" height="16" rx="2"/>
+                        <path d="M22 7l-10 7L2 7"/>
+                    </svg>
+                    daianagotiu@gmail.com
+                </a>
+                <a href="tel:+40721004943" class="contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    +40 721 004 943
+                </a>
+                <span class="contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Cluj-Napoca, Romania
+                </span>
+                <a href="https://linkedin.com/in/daianagotiu" target="_blank" class="contact-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                        <rect x="2" y="9" width="4" height="12"/>
+                        <circle cx="4" cy="4" r="2"/>
+                    </svg>
+                    linkedin.com/in/daianagotiu
+                </a>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="cv-section">
+            <h2>Professional Summary</h2>
+            <p class="summary-text">
+                Product-focused UX/UI designer with 4+ years of experience designing digital products for enterprise software, healthcare, and transportation. I focus on creating accessible, user-centered experiences that balance business needs with what people actually need. My work spans design systems, user research, product strategy, and AI-assisted workflows. I've designed for global clients like Roche Diagnostics, Deutsche Bahn, and Access Group, always working to bridge the gap between design and development. Passionate about using AI tools like Claude and Figma Make to prototype faster while maintaining accessibility standards (WCAG 2.2 AA). Drawn to the intersection of UX and product ownership, where user research informs product decisions and design systems thinking provides strategic vision.
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="cv-section">
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <h3>UX/UI Designer, AI-Enhanced Design Workflows</h3>
+                    <span class="job-period">Apr 2024 - Present</span>
+                </div>
+                <p class="company">Access Group · Enterprise SaaS Platform</p>
+                <ul>
+                    <li>Delivered UX/UI design for enterprise design system across multiple product teams, ensuring consistent user experience and design system governance.</li>
+                    <li>Pioneered AI-assisted design workflows using Claude with MCP (Model Context Protocol) integration, transforming Figma designs into production-ready React components with TypeScript and Storybook, reducing development time by 40%.</li>
+                    <li>Designed and implemented enterprise search redesign, feed component enhancements, and micro front-end architecture for workspace platform.</li>
+                    <li>Conducted user research using UserZoom for unmoderated usability testing, synthesized insights in Marvin, and applied user-centered design methodologies including remote interviews and survey analysis to inform product decisions.</li>
+                    <li>Performed moderated usability testing sessions with internal users to validate design decisions and improve product usability.</li>
+                    <li>Collaborated with product managers and developers to define product requirements, prioritize features, and align design solutions with business objectives and user needs.</li>
+                    <li>Ensured WCAG 2.2 AA accessibility compliance across all designs through accessibility audits and inclusive design practices.</li>
+                    <li>Collaborated with cross-functional teams in Agile environment using Jira and Azure DevOps for project management and design handoff.</li>
+                    <li>Created interactive prototypes using Figma Make and developed design specifications for seamless developer handoff.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>UX/UI Designer</h3>
+                    <span class="job-period">Jul 2021 - Mar 2024</span>
+                </div>
+                <p class="company">Nagarro · Digital Product Engineering</p>
+                <ul>
+                    <li>Delivered end-to-end UX/UI design solutions for international clients including Roche Diagnostics (healthcare/life sciences), Deutsche Bahn (transportation), and Arriva (mobility platforms).</li>
+                    <li>Conducted moderated usability testing with real users for Roche Diagnostics medical device feature, gathering qualitative and quantitative insights that informed design iterations and improved user experience.</li>
+                    <li>Designed complex web applications and mobile apps with focus on information architecture, user flows, wireframing, and high-fidelity UI design.</li>
+                    <li>Created responsive designs and interactive prototypes using Figma, Adobe XD, and Axure, ensuring mobile-first and cross-platform compatibility.</li>
+                    <li>Applied user research methodologies including user interviews, personas, user journey mapping, and usability testing to validate design decisions.</li>
+                    <li>Collaborated with product managers, developers, and stakeholders in Agile/Scrum environment to align design solutions with business objectives and technical constraints.</li>
+                    <li>Mentored junior UX/UI designers and interns on design thinking, best practices, and professional development.</li>
+                    <li>Delivered presentations on UX methodologies and design processes to internal teams, promoting user-centered design culture.</li>
+                    <li>Supported branding and marketing initiatives with graphic design and visual communication materials.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Graphic Designer</h3>
+                    <span class="job-period">Apr 2021 - Dec 2021</span>
+                </div>
+                <p class="company">Creative Motion · Branding & Visual Identity</p>
+                <ul>
+                    <li>Developed complete brand identities and visual design systems for e-commerce, fintech, and food service clients.</li>
+                    <li>Designed logos, color palettes, typography systems, and brand guidelines using Adobe Illustrator and Adobe Photoshop.</li>
+                    <li>Created marketing materials and visual communication assets ensuring consistent brand expression across channels.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Freelance Graphic Designer</h3>
+                    <span class="job-period">Oct 2015 - Oct 2017</span>
+                </div>
+                <p class="company">Upwork · Remote Contract Work</p>
+                <ul>
+                    <li>Designed logos, illustrations, and visual identities for diverse clients using Adobe Illustrator and Adobe Photoshop.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="cv-section">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>UX Design Certificate Program</h3>
+                    <span class="education-period">Mar 2021 - Jul 2021</span>
+                </div>
+                <p class="degree">Informal School of IT · User Experience Design</p>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Bachelor of Arts in Design</h3>
+                    <span class="education-period">Oct 2017 - Jul 2020</span>
+                </div>
+                <p class="degree">University of Art and Design, Cluj-Napoca</p>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Baccalaureate Diploma in Graphics</h3>
+                    <span class="education-period">Sep 2011 - Jun 2015</span>
+                </div>
+                <p class="degree">Sigismund Toduță High School of Arts, Deva</p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="cv-section">
+            <h2>Core Competencies</h2>
+            
+            <div class="skills-grid">
+                <div class="skills-column">
+                    <h3>UX/UI Design Skills</h3>
+                    <ul>
+                        <li>User Experience (UX) Design</li>
+                        <li>User Interface (UI) Design</li>
+                        <li>Product Design</li>
+                        <li>Interaction Design</li>
+                        <li>Visual Design</li>
+                        <li>Design Systems & Component Libraries</li>
+                        <li>Responsive Web Design</li>
+                        <li>Mobile-First Design</li>
+                        <li>Information Architecture (IA)</li>
+                        <li>Wireframing & Prototyping</li>
+                        <li>High-Fidelity Mockups</li>
+                    </ul>
+                </div>
+
+                <div class="skills-column">
+                    <h3>Research & Testing</h3>
+                    <ul>
+                        <li>User Research & UX Research</li>
+                        <li>Usability Testing (Moderated & Unmoderated)</li>
+                        <li>User Interviews</li>
+                        <li>User Personas & User Stories</li>
+                        <li>User Journey Mapping</li>
+                        <li>A/B Testing</li>
+                        <li>Heuristic Evaluation</li>
+                        <li>Survey Design & Analysis</li>
+                        <li>Stakeholder Interviews</li>
+                    </ul>
+                </div>
+
+                <div class="skills-column">
+                    <h3>Technical & Accessibility</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>React & TypeScript</li>
+                        <li>WCAG 2.2 AA Compliance</li>
+                        <li>Accessibility Audits</li>
+                        <li>Inclusive Design</li>
+                        <li>Design Tokens</li>
+                        <li>Version Control (Git)</li>
+                        <li>Responsive Design Principles</li>
+                    </ul>
+                </div>
+
+                <div class="skills-column">
+                    <h3>AI & Innovation</h3>
+                    <ul>
+                        <li>AI-Assisted Design Workflows</li>
+                        <li>Prompt Engineering</li>
+                        <li>Claude AI Integration</li>
+                        <li>MCP (Model Context Protocol)</li>
+                        <li>Vibe Coding Techniques</li>
+                        <li>AI-Powered Prototyping</li>
+                    </ul>
+                </div>
+
+                <div class="skills-column">
+                    <h3>Methodologies</h3>
+                    <ul>
+                        <li>User-Centered Design (UCD)</li>
+                        <li>Design Thinking</li>
+                        <li>Agile & Scrum</li>
+                        <li>Product Discovery</li>
+                        <li>Lean UX</li>
+                        <li>Design Sprints</li>
+                        <li>Kanban</li>
+                        <li>Workshop Facilitation</li>
+                        <li>Backlog Management</li>
+                    </ul>
+                </div>
+
+                <div class="skills-column">
+                    <h3>Business & Collaboration</h3>
+                    <ul>
+                        <li>Cross-Functional Team Collaboration</li>
+                        <li>Stakeholder Communication</li>
+                        <li>Product Strategy & Roadmapping</li>
+                        <li>Product Vision & Discovery</li>
+                        <li>Business Requirements Analysis</li>
+                        <li>Feature Prioritization</li>
+                        <li>Design Documentation</li>
+                        <li>Presentation Skills</li>
+                        <li>Mentoring & Training</li>
+                        <li>Data-Driven Decision Making</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tools-section">
+                <h3>Design & Development Tools</h3>
+                <p class="tools-list">
+                    <strong>Design:</strong> Figma (Expert) · Adobe XD · Adobe Illustrator · Adobe Photoshop · Sketch · InVision · Zeplin · Axure RP<br>
+                    <strong>Prototyping & Testing:</strong> Figma Make · Storybook · UserZoom · Marvin · Interactive Prototypes<br>
+                    <strong>Development:</strong> VS Code · React · TypeScript · HTML5 · CSS3 · Git<br>
+                    <strong>AI Tools:</strong> Claude · Figma Make · Prompt Engineering · MCP Integration<br>
+                    <strong>Collaboration:</strong> Miro · FigJam · Jira · Azure DevOps · Confluence<br>
+                    <strong>Analytics:</strong> Hotjar · Google Analytics
+                </p>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="cv-section">
+            <h2>Certifications & Professional Development</h2>
+            
+            <div class="certifications-grid">
+                <div class="cert-item">
+                    <p class="cert-name">Product Owner Fundamentals - IIBA Endorsed</p>
+                    <p class="cert-issuer">Coursera</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">Product Owner Certification & Exam Prep + Scrum Master & AI</p>
+                    <p class="cert-issuer">Coursera · 2024</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">Using AI Tools for UX Design</p>
+                    <p class="cert-issuer">LinkedIn Learning · October 2024</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">The Complete AI Coding Course: Cursor, Claude Code</p>
+                    <p class="cert-issuer">Udemy · September 2024</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">GenAI Fundamentals for UX Designers + Researchers</p>
+                    <p class="cert-issuer">Udemy · September 2024</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">AI for Designers</p>
+                    <p class="cert-issuer">Interaction Design Foundation (IxDF) · June 2024</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">Accessibility-First Design</p>
+                    <p class="cert-issuer">LinkedIn Learning · March 2024</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">Designing Accessible Components in Figma</p>
+                    <p class="cert-issuer">LinkedIn Learning · January 2024</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">UX for AI: Design Practices for AI Developers</p>
+                    <p class="cert-issuer">LinkedIn Learning · January 2024</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">Visual Design: The Ultimate Guide</p>
+                    <p class="cert-issuer">Interaction Design Foundation (IxDF) · April 2022</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">User Experience: The Beginner's Guide</p>
+                    <p class="cert-issuer">Interaction Design Foundation (IxDF) · March 2022</p>
+                </div>
+                <div class="cert-item">
+                    <p class="cert-name">Google UX Design Professional Certificate</p>
+                    <p class="cert-issuer">Coursera · 2021 - 2022</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries & Domains -->
+        <section class="cv-section">
+            <h2>Industry Experience</h2>
+            <p class="tools-list">
+                Enterprise SaaS · FinTech · Healthcare & Life Sciences · Medical Devices · Transportation & Mobility · B2B Software · Cloud Platforms · E-Commerce
+            </p>
+        </section>
+    </div>
+</body>
+</html>
